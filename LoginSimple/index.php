@@ -14,7 +14,7 @@
     <input type='submit' value='Login'>
     ";
     echo "</form>";
-    if($_POST['user']!= '' && $_POST['user']!=''){
+    if($_POST != null){
       $ususario = $_POST['user'];
       $pasword = $_POST['paswd'];
       $conn = mysqli_connect('localhost','nil','1234');
