@@ -6,3 +6,8 @@
 4. Executem la següent línia per llançar el .sql a la bbdd: `sudo mysql -u "user" -p world < ruta/world.sql`
 5. Entrar en la línia següent del codi i canviar les credencials a tots els arxius que estigui la línia: `$conn =  mysqli_connect('localhost','user','password'); `
 #### Descarrega: [World.sql](http://downloads.mysql.com/docs/world.sql.zip)
+
+## Exercici LoginSQL Injection
+1. Utilitzem 2 arxius un et pots fer log i l'altre no pots fer SQLijection.
+2. La base de dades utilizada es el arxiu amb el nom **login.sql**.
+`el usuari per defecte es el nil 1234`
